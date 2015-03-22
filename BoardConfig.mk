@@ -21,15 +21,12 @@ TARGET_OTA_ASSERT_DEVICE := hltetmo,SM-N900T,hltecan,SM-N900W8
 TARGET_BOOTLOADER_BOARD_NAME := hltetmo
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_tmo_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := unicornblood_hlte_tmo_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/hltetmo/init/init_hltetmo.c
 TARGET_UNIFIED_DEVICE := true
-
-# Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_tmo_defconfig
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
