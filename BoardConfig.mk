@@ -17,9 +17,6 @@
 
 TARGET_OTA_ASSERT_DEVICE := hltetmo,SM-N900T,hltecan,SM-N900W8
 
-# Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := hltetmo
-
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := unicornblood_hlte_tmo_defconfig
 
