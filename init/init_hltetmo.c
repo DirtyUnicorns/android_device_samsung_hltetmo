@@ -57,15 +57,15 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     if (strstr(bootloader, "N900W8")) {
         /* hltecan */
         gsm_properties();
-        property_set("ro.build.fingerprint", "samsung/hltecan/hlte:4.4.2/KOT49H/N900W8VLUCND5:user/release-keys");
-        property_set("ro.build.description", "hltecan-user 4.4.2 KOT49H N900W8VLUCND5 release-keys");
+        property_set("ro.build.fingerprint", "samsung/hltecan/hlte:5.1.1/LVY48F:user/release-keys");
+        property_set("ro.build.description", "hltecan-user 5.1.1/LVY48F release-keys");
         property_set("ro.product.model", "SM-N900W8");
         property_set("ro.product.device", "hltecan");
     } else {
         /* hltetmo */
         gsm_properties();
-        property_set("ro.build.fingerprint", "samsung/hltetmo/hltetmo:4.4.2/KOT49H/N900TUVUCNB4:user/release-keys");
-        property_set("ro.build.description", "hltetmo-user 4.4.2 KOT49H N900TUVUCNB4 release-keys");
+        property_set("ro.build.fingerprint", "samsung/hltetmo/hltetmo:5.1.1/LVY48F:user/release-keys");
+        property_set("ro.build.description", "hltetmo-user 5.1.1/LVY48F release-keys");
         property_set("ro.product.model", "SM-N900T");
         property_set("ro.product.device", "hltetmo");
     }
